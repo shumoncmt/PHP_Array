@@ -1,4 +1,5 @@
-<php
+<!--  -->
+<?php
 
 $name1 = "Jhon";
 $name2 = "Jene";
