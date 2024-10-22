@@ -1,0 +1,10 @@
+<?php
+$fruits = ["Mango", "banana", "apple"];
+$nre_fruits = [ "orange", "pineapple", "grape"];
+
+$all_fruits = array_merge($fruits, $nre_fruits);
+
+print_r($all_fruits);
+
+$class3 = ["A", "B", "C"];
+$class4 = ["E", ]
