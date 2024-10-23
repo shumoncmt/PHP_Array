@@ -43,8 +43,9 @@ $city = "Dhaka is our My city";
 //echo str_repeat("Bangladesh  Dhaka ", 10);
 
 echo md5("HelloBangladesh");
+echo "\n";
 
-
+echo sha1("HelloBangladesh");
 
 
 
