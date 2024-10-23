@@ -1,14 +1,44 @@
 <?php
-$string = ("Hello Bangladesh, This is my fist tasting This is my fist tasting");
-//echo $string ;
-// echo str_repeat("",2) . " " ."fist tasting"; //Repeat String
-// echo str_replace("Bangladesh", "Dhaka", $string); //Replace String
-// echo PHP_EOL;
-// echo str_shuffle("Jamal");
-// echo PHP_EOL;
-// echo str_word_count($string);
-// echo str_ends_with($string,"");
-// echo str_pad($string,0," ", STR_PAD_LEFT);
-// echo str_split($string);
-// echo strlen($string);
-echo str_
+$name ="Shakil";
+
+$single_str1= 'My Name is ' . $name . 'Mia'; // That is mot manageable way | Less use case
+$double_str2 = "My Name is ". $name . " " ."Mia"; 
+
+
+$single_str3 = 'My name is {$name}';
+$double_set4 = "My Name is {$name}"; //{} that is more manageable wat| more use case
+
+$heredoc_str5= <<<Demo
+        This is heredoc string
+        This is heredoc string
+        This is heredoc string
+Demo;                               // <<<Demo  ...... Demo | Near 0 use case inside laravel 
+
+
+$newdoc_str6 = <<<'Demo'
+        This is new string
+        This is new string
+        This is new string
+Demo;
+
+
+$city = "Dhaka is our My city";
+//echo strlen( $city); 
+//echo str_word_count($city);
+//echo strpos($city , "M"); 
+
+//echo str_replace("city" , "Ostad", $city);// replace our code
+// $arr = array("hello","world","how","are","you");
+// echo implode("+", $arr);
+
+// $str =("Hello+world+how+are+you");
+// print_r(explode("+",$str));
+
+
+
+
+
+
+
+
+//echo $newdoc_str6 ;
