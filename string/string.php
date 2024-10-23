@@ -33,7 +33,16 @@ $city = "Dhaka is our My city";
 
 // $str =("Hello+world+how+are+you");
 // print_r(explode("+",$str));
+// $str ="Hello     ";
+// echo trim($str);
 
+// $str = "Hello World";
+// echo strtoupper( $str );
+//$str = "Hello World";
+//echo strtolower($str);
+//echo str_repeat("Bangladesh  Dhaka ", 10);
+
+echo md5("HelloBangladesh");
 
 
 
